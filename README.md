@@ -10,6 +10,10 @@ Docker ps – To check the containers running
 Docker ps -a– To check every container running including hidden files
 Docker pull – to pull the image from docker hub
 Docker run – to run the image live directly from dockerhub
+docker exec -it <container id> bash > to access the running container
+docker stop      > stops a running container
+docker kill      > kills container by stopping execution. stop gives time to shut down gracefully
+docker commit <container id><username/imagename>       > creates new image of an edited container on local system
 
 ```
 
